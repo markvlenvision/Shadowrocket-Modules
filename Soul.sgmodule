@@ -20,6 +20,7 @@
 ^https:\/\/xlog\.jd\.com\/* - REJECT
 ^https:\/\/janapi\.jd\.com\/* - REJECT
 ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/*  - REJECT
+^https://sf3-fe-tos.pglstatp-toutiao.com/obj/ad-pattern/*  - REJECT
 
 [Map Local]
 
