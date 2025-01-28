@@ -1,0 +1,31 @@
+#!name=Soul Module
+#!desc=Soul广告屏蔽
+
+[General]
+
+[Rule]
+
+
+
+[URL Rewrite]
+
+^https:\/\/mi\.gdt\.qq\.com\/*\.fcg - REJECT
+^https://ssp.soulapp.cn/api/*  - REJECT
+^https:\/\/soul-ad\.soulapp\.cn\/* - REJECT
+^https:\/\/ad-r\.soulapp\.cn\/* - REJECT
+^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/* - REJECT
+^https:\/\/api-access\.pangolin-sdk-toutiao1\.com\/* - REJECT
+^https:\/\/snowflake\.qq\.com\/* - REJECT
+^https:\/\/dsp-x\.jd\.com\/* - REJECT
+^https:\/\/xlog\.jd\.com\/* - REJECT
+^https:\/\/janapi\.jd\.com\/* - REJECT
+^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/*  - REJECT
+
+[Map Local]
+
+
+[Script]
+
+[MITM]
+
+hostname = %APPEND%  soul-ad.soulapp.cn,ad-r.soulapp.cn,api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao1.com,snowflake.qq.com,dsp-x.jd.com,xlog.jd.com,janapi.jd.com
