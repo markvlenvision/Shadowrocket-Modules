@@ -20,7 +20,7 @@
 ^https:\/\/xlog\.jd\.com\/* - REJECT
 ^https:\/\/janapi\.jd\.com\/* - REJECT
 ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/*  - REJECT
-^https://sf3-fe-tos.pglstatp-toutiao.com/obj/ad-pattern/*  - REJECT
+^https:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/*  - REJECT
 
 [Map Local]
 
@@ -29,4 +29,4 @@
 
 [MITM]
 
-hostname = %APPEND%  soul-ad.soulapp.cn,ad-r.soulapp.cn,api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao1.com,snowflake.qq.com,dsp-x.jd.com,xlog.jd.com,janapi.jd.com
+hostname = %APPEND%  soul-ad.soulapp.cn,ad-r.soulapp.cn,api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao1.com,snowflake.qq.com,dsp-x.jd.com,xlog.jd.com,janapi.jd.com,sf3-fe-tos.pglstatp-toutiao.com
