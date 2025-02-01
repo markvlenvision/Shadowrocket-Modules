@@ -9,18 +9,34 @@
 
 [URL Rewrite]
 
-^https:\/\/mi\.gdt\.qq\.com\/*\.fcg - REJECT
-^https://ssp.soulapp.cn/api/*  - REJECT
-^https:\/\/soul-ad\.soulapp\.cn\/* - REJECT
-^https:\/\/ad-r\.soulapp\.cn\/* - REJECT
+^https:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/* - REJECT
+^https:\/\/pgdt\.ugdtimg\.com\/* - REJECT
+^https:\/\/dig\.bdurl\.net\/* - REJECT
+^https:\/\/win\.gdt\.qq\.com\/* - REJECT
+^https:\/\/www\.qchannel01\.cn\/* - REJECT
+^https:\/\/v\.gdt\.qq\.com\/* - REJECT
+^https:\/\/dypnsapi\.aliyuncs\.com\/* - REJECT
+^https:\/\/mgw\.mpaas\.cn-hangzhou\.aliyuncs\.com\/* - REJECT
+^https:\/\/ad\.soulapp\.cn\/* - REJECT
+^https:\/\/nalytics\.oceanengine\.com\/* - REJECT
+^https:\/\/ssp\.soulapp\.cn\/* - REJECT
+^https:\/\/*\.rdt\.tfogc\.com:49156\/* - REJECT
+^https:\/\/mi\.gdt\.qq\.com\/* - REJECT
+^https:\/\/ad-audit-provider\.soulapp\.cn\/* - REJECT
+^https:\/\/toblog\.ctobsnssdk\.com\/* - REJECT
 ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/* - REJECT
-^https:\/\/api-access\.pangolin-sdk-toutiao1\.com\/* - REJECT
-^https:\/\/snowflake\.qq\.com\/* - REJECT
 ^https:\/\/dsp-x\.jd\.com\/* - REJECT
+^https:\/\/lf-cdn-tos\.bytescm\.com\/* - REJECT
+^https:\/\/ad-h5-station-cdn\.soulapp\.cn\/* - REJECT
 ^https:\/\/xlog\.jd\.com\/* - REJECT
+^https:\/\/snowflake\.qq\.com\/* - REJECT
+^https:\/\/adsmind\.ugdtimg\.com\/* - REJECT
+^https:\/\/sdk\.e\.qq\.com\/* - REJECT
+^https:\/\/ad-r\.soulapp\.cn\/* - REJECT
 ^https:\/\/janapi\.jd\.com\/* - REJECT
-^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/*  - REJECT
-^https:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/*  - REJECT
+^https:\/\/v2\.gdt\.qq\.com\/* - REJECT
+^https:\/\/soul-ad\.soulapp\.cn\/* - REJECT
+^https:\/\/qzs\.gdtimg\.com\/* - REJECT
 
 [Map Local]
 
@@ -29,4 +45,4 @@
 
 [MITM]
 
-hostname = %APPEND%  soul-ad.soulapp.cn,ad-r.soulapp.cn,api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao1.com,snowflake.qq.com,dsp-x.jd.com,xlog.jd.com,janapi.jd.com,sf3-fe-tos.pglstatp-toutiao.com
+hostname = %APPEND%  dypnsapi.aliyuncs.com,ad-h5-station-cdn.soulapp.cn,ad.soulapp.cn,ad-audit-provider.soulapp.cn,soul-ad.soulapp.cn,ssp.soulapp.cn,dsp-x.jd.com,xlog.jd.com,janapi.jd.com,snowflake.qq.com,sdk.e.qq.com,nalytics.oceanengine.com,sf3-fe-tos.pglstatp-toutiao.com,toblog.ctobsnssdk.com,ad-r.soulapp.cn,mi.gdt.qq.com,ad-audit-provider.soulapp.cn,pgdt.ugdtimg.com,adsmind.ugdtimg.com,qzs.gdtimg.com,*.rdt.tfogc.com:49156,mgw.mpaas.cn-hangzhou.aliyuncs.com,v2.gdt.qq.com,win.gdt.qq.com,soul-ad.soulapp.cn,adsmind.ugdtimg.com,v.gdt.qq.com,dig.bdurl.net,sf3-fe-tos.pglstatp-toutiao.com,lf-cdn-tos.bytescm.com,www.qchannel01.cn,api-access.pangolin-sdk-toutiao.com
